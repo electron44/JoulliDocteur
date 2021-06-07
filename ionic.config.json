@@ -1,5 +1,7 @@
 {
   "name": "joulli_docteur",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

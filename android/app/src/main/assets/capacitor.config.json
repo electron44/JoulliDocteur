@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "joulli_docteur",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
