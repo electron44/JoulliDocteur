@@ -1,14 +1,15 @@
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding">
   <div class="my-container">
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title>Theme 1</ion-card-title>
-      </ion-card-header>
-  
-      <ion-card-content>
-          Write somthings about the theme
-      </ion-card-content>
-    </ion-card>
+    <!-- DUpliquer les div ci dessous pour créer des thémes -->
+    <div class="wrapper">
+
+      <div class="card has-bg-img bg-img-nature" routerLink="/theme1">
+        <span class="card__title">Théme 1</span>
+      </div>
+
+      <div class="card has-bg-img bg-img-nature" routerLink="/theme2">
+        <span class="card__title">Théme 2</span>
+      </div>
+    </div>
   </div>
- 
 </ion-content>
